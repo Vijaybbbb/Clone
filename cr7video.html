@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+       <meta charset="UTF-8">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <title>Play video</title>
+       <link rel="stylesheet" href="youtubeHome.css">
+       <meta charset="UTF-8">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <title>Document</title>
+       <link rel="stylesheet" href="css/bootstrap.css">
+       <link rel="stylesheet" href="youtubeHome.css">
+       <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+</head>
+<body>
+       <nav class="flex-div">
+              <div class="nav-left">
+                     <button class="btn btn-dark btn-mic" onclick="showbox()" id="bt1"><i class="ri-menu-line"></i></button>
+                     
+                     <img src="youtubewithtext.png" alt="" class="logo">
+                     
+              </div>
+              <div class="nav-middle flex-div">
+                     <div class="search-box flex-div">
+                            <input type="text" placeholder="Search" class="text-input" style="color: rgb(0, 0, 0);font-size: 10px;">
+                            <a href=""><i class="ri-search-line" style="color: rgb(0, 0, 0);"></i></button></a>
+                          
+
+                     </div>
+                     <button class="btn btn-dark flex-div btn-mic"> <i class="ri-mic-line"></i></button>
+
+              </div>
+              <div class="nav-right">
+                     <button class="btn btn-dark btn-round btn-ring"><i class="ri-notification-3-line"></i></button>
+                     <button class="btn btn-dark btn-round"><img src="images/Jack.png" alt="" style="width: 20px; border-radius: 50px;"></button>
+                    
+                    
+              </div>
+       </nav>
+
+       
+       <div class="container play-container">
+              
+                     <div class="left">
+                            <video controls autoplay>
+                                   <source src="images/gettyimages-1368233065-640_adpp.mp4" type="video/mp4" >
+                            </video>
+
+
+                            <div class="comment-container">
+                                   <h2 class="rows">Comments</h2>
+                                   <div class="comments-list">
+                                       <!-- Comments will be displayed here -->
+                                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam a consequuntur fugit repudiandae commodi au!</p>
+                                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis optio sed molestiae eius quis, soluta sequi consequuntur, repudiandae commodi, officiis aut dolores accusantium architecto animi fugit quidem vitae illum vero.
+
+                                   </div>
+                                   <div class="comment-input">
+                                       <textarea id="comment-text" rows="4" placeholder="Add a comment"></textarea>
+                                       <button id="submit-comment">Submit</button>
+                                   </div>
+                               </div>
+
+
+                     </div>
+                     <div class="right">
+
+                            <div class="side-video-list">
+                                   <a href="" class="small-thumbnail"> <img src="images/thumbnail3.png" alt=""></a>
+                                   <div class="vid-info">
+                                          <a href="">Best Channel that help you</a>
+                                          <p>Easy tutorial</p>
+                                          <p>15k views</p>
+                                   </div>
+                            </div>
+                            <div class="side-video-list">
+                                   <a href="" class="small-thumbnail"> <img src="images/thumbnail3.png" alt=""></a>
+                                   <div class="vid-info">
+                                          <a href="">Best Channel that help you</a>
+                                          <p>Easy tutorial</p>
+                                          <p>15k views</p>
+                                   </div>
+                            </div>
+                           
+                     </div>
+              </div>
+       </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+       <script src="script.js"></script>
+       <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+       <script src="js/bootstrap.js"></script>      
+</body>
+</html>

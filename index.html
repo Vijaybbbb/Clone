@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+          <meta charset="UTF-8">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <title>Document</title>
+          <link rel="stylesheet" href="css/bootstrap.css">
+          <link rel="stylesheet" href="youtubeHome.css">
+          <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+</head>
+<body>
+
+       <nav class="flex-div">
+              <div class="nav-left">
+                     <button class="btn btn-dark btn-mic" onclick="showbox()" id="bt1"><i class="ri-menu-line"></i></button>
+                     
+                     <img src="youtubewithtext.png" alt="" class="logo">
+                     
+              </div>
+              <div class="nav-middle flex-div">
+                     <div class="search-box flex-div">
+                            <input type="text" id="textboxsearch" placeholder="Search" class="text-input" style="color: rgb(0, 0, 0);font-size: 10px;">
+                            <button id="searchbtn" onclick="send()"><i class="ri-search-line" style="color: rgb(0, 0, 0);"></i></button>
+                          
+
+                     </div>
+                     <button class="btn btn-dark flex-div btn-mic"> <i class="ri-mic-line"></i></button>
+
+              </div>
+              <div class="nav-right">
+                     <button class="btn btn-dark btn-round btn-ring"><i class="ri-notification-3-line"></i></button>
+                     <button class="btn btn-dark btn-round"><img src="images/Jack.png" alt="" style="width: 20px; border-radius: 50px;"></button>
+                    
+                    
+              </div>
+       </nav>
+
+       <!---sidebar-->
+       <div>
+      <div class="sidebar">
+              <div class="shortcut-link">
+                     <a href="index.html" style="color: rgb(0, 0, 0);"><i class="ri-home-5-line icon-space "></i><p>Home</p></a>
+                     <a href="" style="color: rgb(0, 0, 0);"><i class="ri-wireless-charging-line"></i><p>shorts</p></a>
+                     <a href="" style="color: rgb(0, 0, 0);"><i class="ri-rss-line "></i><p>Subscription</p></a>
+                     <hr class="whiteline">
+                     <a href="" style="color: rgb(0, 0, 0);"><i class="ri-links-line "></i><p>Library</p></a>
+                     <a href="" style="color: rgb(0, 0, 0);"><i class="ri-chat-history-line"></i><p>History</p></a>
+                     <a href="" style="color: rgb(0, 0, 0);"><i class="ri-video-line "></i><p>Your videos</p></a>
+                     <a href="" style="color: rgb(0, 0, 0);"><i class="ri-time-line "></i><p>Watch Later</p></a>
+                     <a href="" style="color: rgb(0, 0, 0);"><i class="ri-arrow-down-s-line "></i><p>show more</p></a> 
+                     <hr class="whiteline">
+                     <div class="hidden">
+                     <a href="" style="color: rgb(0, 0, 0);"><i class="ri-home-5-line icon-space "></i><p>Trending</p></a>
+                     <a href="" style="color: rgb(0, 0, 0);"><i class="ri-shopping-bag-line"></i><p>Shopping</p></a>
+                     <a href="" style="color: rgb(0, 0, 0);"><i class="ri-file-music-line"></i><p>Music</p></a>
+                     <a href="" style="color: rgb(0, 0, 0);"><i class="ri-live-line"></i><p>Live</p></a>
+                     <a href="" style="color: rgb(0, 0, 0);"><i class="ri-award-line "></i><p>Sports</p></a> 
+                     <a href="" style="color: rgb(0, 0, 0);"><i class="ri-movie-2-line"></i><p>Films</p></a> 
+                     <a href="" style="color: rgb(0, 0, 0);"><i class="ri-file-list-3-line"></i><p>News</p></a> 
+                     <a href="" style="color: rgb(0, 0, 0);"><i class="ri-lightbulb-flash-line"></i><p>Learning</p></a> 
+                     <hr class="whiteline">
+                     </div>
+              </div>
+       </div>
+      
+              <!-------main----    -->>
+       
+              <div class="video-container">
+                     <div class="grid-container">
+                            <div class="grid-item">
+                               <a href="playvideo1.html" target="_blank"> <img src="images/thumbnail1.png" alt="Image 1" ></a>
+                                  <div class="video-info">
+                                           <h2 class="video-title">Most Beautiful Sea ever</h2>
+                                          <p class="view-details">15k Views 2 day ago</p>
+                                    </div>
+                            </div>
+                            <div class="grid-item">
+                               <a href="playvideo2.html"> <img src="images/thumbnail2.png" alt="Image 2"></a>
+                                <div class="video-info">
+                                   <h2  class="video-title">happy coding</h2>
+                                  <p class="view-details">150k Views 2 day ago</p>
+                            </div>
+                            </div>
+                            <div class="grid-item">
+                               <a href="playvideo3.html"> <img src="images/thumbnail3.png" alt="Image 3"></a>
+                                <div class="video-info">
+                                   <h2  class="video-title">happy coding</h2>
+                                  <p class="view-details">10k Views 5 day ago</p>
+                            </div>
+                            </div>
+                            <div class="grid-item">
+                                  <a href="playvideo4.html"> <img src="images/thumbnail4.png" alt="Image 1"></a>
+                                   <div class="video-info">
+                                          <h2  class="video-title">happy coding</h2>
+                                         <p class="view-details">1M Views 2 year ago</p>
+                                   </div>
+                               </div>
+                               <div class="grid-item">
+                                  <a href="playvideo5.html"> <img src="images/thumbnail5.png" alt="Image 2"></a>
+                                   <div class="video-info">
+                                          <h2  class="video-title">happy coding</h2>
+                                         <p class="view-details">15k Views 1 day ago</p>
+                                   </div>
+                               </div>
+                               <div class="grid-item">
+                                   <img src="images/thumbnail6.png" alt="Image 3">
+                                   <div class="video-info">
+                                          <h2  class="video-title">happy coding</h2>
+                                         <p class="view-details">500k Views 2 months ago</p>
+                                   </div>
+                               </div>
+                               <div class="grid-item">
+                                   <img src="images/thumbnail7.png" alt="Image 3">
+                                   <div class="video-info">
+                                          <h2  class="video-title">happy coding</h2>
+                                         <p class="view-details">15k Views 2 day ago</p>
+                                   </div>
+                               </div>
+                               <div class="grid-item">
+                                   <img src="images/thumbnail8.png" alt="Image 3">
+                                   <div class="video-info">
+                                          <h2  class="video-title">happy coding</h2>
+                                         <p class="view-details">153k Views 3 day ago</p>
+                                   </div>
+                               </div>
+                               <div class="grid-item">
+                                   <a href="playvideo4.html"> <img src="images/thumbnail4.png" alt="Image 1"></a>
+                                    <div class="video-info">
+                                           <h2  class="video-title">happy coding</h2>
+                                          <p class="view-details">1M Views 2 year ago</p>
+                                    </div>
+                                </div>
+                                <div class="grid-item">
+                                   <a href="playvideo5.html"> <img src="images/thumbnail5.png" alt="Image 2"></a>
+                                    <div class="video-info">
+                                           <h2  class="video-title">happy coding</h2>
+                                          <p class="view-details">15k Views 1 day ago</p>
+                                    </div>
+                                </div>
+                                <div class="grid-item">
+                                    <img src="images/thumbnail6.png" alt="Image 3">
+                                    <div class="video-info">
+                                           <h2  class="video-title">happy coding</h2>
+                                          <p class="view-details">500k Views 2 months ago</p>
+                                    </div>
+                                </div>
+                                <div class="grid-item">
+                                    <img src="images/thumbnail7.png" alt="Image 3">
+                                    <div class="video-info">
+                                           <h2  class="video-title">happy coding</h2>
+                                          <p class="view-details">15k Views 2 day ago</p>
+                                    </div>
+                                </div>
+                                <div class="grid-item">
+                                    <img src="images/thumbnail8.png" alt="Image 3">
+                                    <div class="video-info">
+                                           <h2  class="video-title">happy coding</h2>
+                                          <p class="view-details">153k Views 3 day ago</p>
+                                    </div>
+                                </div>
+                                <div class="grid-item">
+                                   <a href="playvideo2.html"> <img src="images/thumbnail2.png" alt="Image 2"></a>
+                                    <div class="video-info">
+                                       <h2  class="video-title">happy coding</h2>
+                                      <p class="view-details">150k Views 2 day ago</p>
+                                </div>
+                                </div>
+                                <div class="grid-item">
+                                   <a href="playvideo3.html"> <img src="images/thumbnail3.png" alt="Image 3"></a>
+                                    <div class="video-info">
+                                       <h2  class="video-title">happy coding</h2>
+                                      <p class="view-details">10k Views 5 day ago</p>
+                                </div>
+                                </div>
+                                <div class="grid-item">
+                                      <a href="playvideo4.html"> <img src="images/thumbnail4.png" alt="Image 1"></a>
+                                       <div class="video-info">
+                                              <h2  class="video-title">happy coding</h2>
+                                             <p class="view-details">1M Views 2 year ago</p>
+                                       </div>
+                                   </div>
+                               
+                            
+                        </div>
+              </div>
+
+    
+
+
+
+       
+
+      
+
+
+
+
+       <script src="script.js"></script>
+       <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+       <script src="js/bootstrap.js"></script>
+          
+</body>
+</html>
